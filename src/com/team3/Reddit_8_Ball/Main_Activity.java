@@ -11,26 +11,25 @@ import android.widget.TextView;
 import java.util.Random;
 
 public class Main_Activity extends Activity {
-    TextView mMagikText;
+    private TextView mMagikText;
     private String[] myArray;
-    private static final Random rgenerator = new Random();
-    //Boolean clicked = false;
+    private static final Random mRgenerator = new Random();
 
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        myArray = getResources().getStringArray(R.array.questionsArray);
 
+        myArray = getResources().getStringArray(R.array.questionsArray);
         mMagikText = (TextView) findViewById(R.id.magicTextView);
 
 
         final Animation in = new AlphaAnimation(0.0f, 1.0f);
         in.setDuration(3000);
-
         final Animation out = new AlphaAnimation(1.0f, 0.0f);
         out.setDuration(3000);
+
         mMagikText.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
@@ -44,16 +43,12 @@ public class Main_Activity extends Activity {
     }
 
     private void generateAnswer(Animation in, Animation out) {
-        //if (clicked == true){
 
         mMagikText.startAnimation(out);
-        String text = myArray[rgenerator.nextInt(myArray.length)];
+
+        String text = myArray[mRgenerator.nextInt(myArray.length)];
         mMagikText.setText(text);
+
         mMagikText.startAnimation(in);
-        //}
-        //clicked = false;
-
     }
-
-
 }
