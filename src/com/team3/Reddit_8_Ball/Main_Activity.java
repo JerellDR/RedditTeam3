@@ -10,11 +10,11 @@ import android.widget.TextView;
 
 import java.util.Random;
 
-public class Main_Activity extends Activity  {
+public class Main_Activity extends Activity {
     TextView mMagikText;
     private String[] myArray;
     private static final Random rgenerator = new Random();
-    Boolean clicked = false;
+    //Boolean clicked = false;
 
 
     @Override
@@ -23,9 +23,8 @@ public class Main_Activity extends Activity  {
         setContentView(R.layout.main);
         myArray = getResources().getStringArray(R.array.questionsArray);
 
-        mMagikText = (TextView)findViewById(R.id.magicTextView);
-        mMagikText.setBackgroundColor(R.color.Azure);
-        mMagikText.setText("Ask Me Anything:  "  );
+        mMagikText = (TextView) findViewById(R.id.magicTextView);
+
 
         final Animation in = new AlphaAnimation(0.0f, 1.0f);
         in.setDuration(3000);
@@ -35,13 +34,11 @@ public class Main_Activity extends Activity  {
         mMagikText.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
-              //clicked = true;
-              generateAnswer(in, out);
+                //clicked = true;
+                generateAnswer(in, out);
                 return true;
             }
         });
-
-
 
 
     }
