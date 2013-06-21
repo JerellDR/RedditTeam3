@@ -24,10 +24,7 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c00100-0b53-4115-af08-c9a42e2d7b96" name="Default" comment="Initial project commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ball.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ball.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/team3/Reddit_8_Ball/Main_Activity.java" afterPath="$PROJECT_DIR$/src/com/team3/Reddit_8_Ball/Main_Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+    <list default="true" id="c1c00100-0b53-4115-af08-c9a42e2d7b96" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Reddit 8 Ball.iws" />
@@ -35,7 +32,7 @@
     <file path="/Main_Activity.java" changelist="c1c00100-0b53-4115-af08-c9a42e2d7b96" time="1371769742988" ignored="false" />
     <file path="/fragment.java" changelist="c1c00100-0b53-4115-af08-c9a42e2d7b96" time="1371592789987" ignored="false" />
     <file path="/main.xml" changelist="c1c00100-0b53-4115-af08-c9a42e2d7b96" time="1371850305091" ignored="false" />
-    <file path="/Dummy.txt" changelist="c1c00100-0b53-4115-af08-c9a42e2d7b96" time="1371850520495" ignored="false" />
+    <file path="/Dummy.txt" changelist="c1c00100-0b53-4115-af08-c9a42e2d7b96" time="1371850556953" ignored="false" />
     <file path="/strings.xml" changelist="c1c00100-0b53-4115-af08-c9a42e2d7b96" time="1371767696247" ignored="false" />
     <file path="$USER_HOME$/Downloads/AsyncTaskExample/AsyncTaskExample/gen/edu/wayne/asynctask/R.java" changelist="c1c00100-0b53-4115-af08-c9a42e2d7b96" time="1371768296297" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
