@@ -32,7 +32,7 @@
     <file path="/Main_Activity.java" changelist="c1c00100-0b53-4115-af08-c9a42e2d7b96" time="1371769742988" ignored="false" />
     <file path="/fragment.java" changelist="c1c00100-0b53-4115-af08-c9a42e2d7b96" time="1371592789987" ignored="false" />
     <file path="/main.xml" changelist="c1c00100-0b53-4115-af08-c9a42e2d7b96" time="1371850305091" ignored="false" />
-    <file path="/Dummy.txt" changelist="c1c00100-0b53-4115-af08-c9a42e2d7b96" time="1371850556953" ignored="false" />
+    <file path="/Dummy.txt" changelist="c1c00100-0b53-4115-af08-c9a42e2d7b96" time="1371850588733" ignored="false" />
     <file path="/strings.xml" changelist="c1c00100-0b53-4115-af08-c9a42e2d7b96" time="1371767696247" ignored="false" />
     <file path="$USER_HOME$/Downloads/AsyncTaskExample/AsyncTaskExample/gen/edu/wayne/asynctask/R.java" changelist="c1c00100-0b53-4115-af08-c9a42e2d7b96" time="1371768296297" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -103,7 +103,7 @@
       <file leaf-file-name="Main_Activity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/team3/Reddit_8_Ball/Main_Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="6" selection-start="460" selection-end="460" vertical-scroll-proportion="0.3312102">
+            <state line="21" column="123" selection-start="598" selection-end="598" vertical-scroll-proportion="0.39049587">
               <folding />
             </state>
           </provider>
@@ -512,7 +512,7 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15572716" sideWeight="0.44795784" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15572716" sideWeight="0.44795784" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.6716016" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.6666667" order="1" side_tool="false" content_ui="tabs" />
@@ -520,7 +520,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5520422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5520422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -577,7 +577,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial project commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="swapped out 8 ball image.  Fixed layout oddities" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -593,6 +593,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="workspace changes" />
     <MESSAGE value="Initial project commit" />
+    <MESSAGE value="swapped out 8 ball image.  Fixed layout oddities" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -714,7 +715,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/team3/Reddit_8_Ball/Main_Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="460" selection-end="460" vertical-scroll-proportion="0.3312102">
+        <state line="21" column="123" selection-start="598" selection-end="598" vertical-scroll-proportion="0.39049587">
           <folding />
         </state>
       </provider>
